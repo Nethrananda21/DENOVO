@@ -1,0 +1,6 @@
+Rank,Dock_Rank,Mol_ID,SMILES,Affinity_kcal_mol,Classification,Pose_File,Complex_File
+1,1,mol_001,"COc1cc2ncnc(NC3CCC(C(=O)O)CC3)c2cc1OC",10.00,Weak,C:\DENOVO\docking\vina_results\poses_pdb\mol_001_pose1.pdb,C:\DENOVO\docking\vina_results\complexes\mol_001_complex.pdb
+2,2,mol_002,"COc1cc2ncnc(NC3CCCCC3)c2cc1OC",10.00,Weak,C:\DENOVO\docking\vina_results\poses_pdb\mol_002_pose1.pdb,C:\DENOVO\docking\vina_results\complexes\mol_002_complex.pdb
+3,3,mol_003,"COc1ccc(O)c(C(=O)Nc2ccc(C#N)c(C(F)(F)F)c2)c1",10.00,Weak,C:\DENOVO\docking\vina_results\poses_pdb\mol_003_pose1.pdb,C:\DENOVO\docking\vina_results\complexes\mol_003_complex.pdb
+4,10,mol_010,"CN1CCc2c(Nc3ccc(Br)c(Cl)c3)ncnc21",10.00,Weak,C:\DENOVO\docking\vina_results\poses_pdb\mol_010_pose1.pdb,C:\DENOVO\docking\vina_results\complexes\mol_010_complex.pdb
+5,5,mol_005,"CC(=O)Nc1ccc2c(c1)Sc1[nH]c(N(C)C)cc1N2C",10.00,Weak,C:\DENOVO\docking\vina_results\poses_pdb\mol_005_pose1.pdb,C:\DENOVO\docking\vina_results\complexes\mol_005_complex.pdb

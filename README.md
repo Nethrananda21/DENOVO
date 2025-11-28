@@ -55,10 +55,11 @@ DENOVO/
 - **Quality:** 100% valid, Lipinski-compliant
 - **Files:** `data/clean_smiles.txt`, `data/processed_compounds.csv`
 
-### Phase 2: LSTM Model Training 🔄 TODO
-- Character vocabulary extraction
-- LSTM architecture (2 layers, 256-512 units)
-- Training for 50-100 epochs
+### Phase 2: LSTM Model Training ✅ COMPLETE
+- **Vocabulary:** 31 characters (including special tokens)
+- **Architecture:** 2-layer LSTM, 512 hidden units, 3.4M parameters
+- **Training:** 50 epochs completed, batch size 64
+- **Files:** `models/best_model.pth`, `models/final_model.pth`, `models/vocab.json`, 5 checkpoints
 
 ### Phase 3: Molecule Generation 🔄 TODO
 - Generate 10,000 novel SMILES
@@ -79,10 +80,19 @@ cd C:\DENOVO
 python scripts/phase1_data_acquisition.py
 ```
 
-### Phase 2 (Next Step)
+### Phase 2 (Completed)
 ```bash
-# Train LSTM model
-python scripts/phase2_train_lstm.py
+# Train LSTM model (10 epochs for quick training)
+python scripts/phase2_train_lstm.py --epochs 10 --batch_size 32
+
+# For full training (50-100 epochs)
+python scripts/phase2_train_lstm.py --epochs 50 --batch_size 64 --hidden_dim 512
+```
+
+### Phase 3 (Next Step)
+```bash
+# Generate molecules
+python scripts/phase3_generate.py
 ```
 
 ---
